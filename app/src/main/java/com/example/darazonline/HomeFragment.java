@@ -39,7 +39,11 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
 
 
-
+        // Inflate the layout for this fragment
+        view = inflater.inflate(R.layout.fragment_home, container, false);
+        recyclerView_ =view.findViewById(R.id.recyclerView);
+        getProduct();
+        return view;
     }
 
     public void getProduct() {
