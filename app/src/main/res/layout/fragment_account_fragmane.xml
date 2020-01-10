@@ -11,7 +11,7 @@
         android:id="@+id/imgLogintop"
         android:layout_width="match_parent"
         android:layout_height="190dp"
-        android:src="@drawable/loginhead" />
+        android:src="@drawable/loginimage" />
 
     <TextView
         android:id="@+id/finalMessage"
