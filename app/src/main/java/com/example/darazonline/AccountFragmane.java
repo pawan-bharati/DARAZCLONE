@@ -45,14 +45,7 @@ public class AccountFragmane extends Fragment {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_account_fragmane, container, false);
 
-        etPhone=view.findViewById(R.id.etPhone);
-        etSMS=view.findViewById(R.id.etSMS);
-        btnSend=view.findViewById(R.id.btnSend);
-        btnLogin=view.findViewById(R.id.btnLogin);
 
-        imgLogintop=view.findViewById(R.id.imgLogintop);
-        cardView=view.findViewById(R.id.card_view);
-        finalView=view.findViewById(R.id.finalMessage);
 
 
 
