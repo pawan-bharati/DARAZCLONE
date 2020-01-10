@@ -22,9 +22,7 @@ public class ProductsAdapter extends RecyclerView.Adapter<ProductsAdapter.Produc
     Context mContext;
     List<Products>productsList;
 
-    public ProductsAdapter(Context mContext, List<Products> productsList) {
-        this.mContext = mContext;
-        this.productsList = productsList;
+
     }
 
 
